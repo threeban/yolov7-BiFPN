@@ -1,0 +1,16 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+# download: bash ./scripts/get_coco.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: data/all/images/train  # 18000 train images
+val: data/all/images/val  # 2000 val images
+# test: data/all/test_wider.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+test: data/all/wider.txt  # 2000 test images
+
+# number of classes
+nc: 1
+
+# class names
+names: [ 'person' ]
