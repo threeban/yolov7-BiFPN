@@ -7,7 +7,7 @@
 train: data/all/images/train  # 18000 train images
 val: data/all/images/val  # 2000 val images
 # test: data/all/test_wider.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
-test: data/all/wider.txt  # 2000 test images
+test: data/all/images/val  # 2000 test images
 
 # number of classes
 nc: 1
